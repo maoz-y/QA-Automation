@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Feb 27 14:09:06 IST 2022","Sun Feb 27 14:09:09 IST 2022","2170","WebDB Suite","Web Tests","sanity.ParabankWebDB","sanity.ParabankWebDB","test01_loginDBandVerifyHeader","test01-verify Login with DB Credentials",""

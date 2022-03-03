@@ -1,0 +1,304 @@
+{
+  "uid" : "9f4e50c4106d6c21",
+  "name" : "test01-verify Login with DB Credentials",
+  "fullName" : "sanity.ParabankWebDB.test01_loginDBandVerifyHeader",
+  "historyId" : "5ac6906354112718bb6b22383dca3f03",
+  "time" : {
+    "start" : 1645963746901,
+    "stop" : 1645963749071,
+    "duration" : 2170
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1645963725486,
+      "stop" : 1645963746721,
+      "duration" : 21235
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Business Flow: Initialize site",
+      "time" : {
+        "start" : 1645963732070,
+        "stop" : 1645963734753,
+        "duration" : 2683
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1645963732098,
+          "stop" : 1645963733671,
+          "duration" : 1573
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (c1aa85e674b9c5a29715451004aad864)] -> link text: Admin Page]"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1645963733685,
+          "stop" : 1645963734753,
+          "duration" : 1068
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (c1aa85e674b9c5a29715451004aad864)] -> xpath: //button[@value='INIT']]"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1645963746739,
+      "stop" : 1645963746793,
+      "duration" : 54
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Business Flow: Login to Parabank with Data Base",
+      "time" : {
+        "start" : 1645963746901,
+        "stop" : 1645963748936,
+        "duration" : 2035
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Get Credentials from Database",
+        "time" : {
+          "start" : 1645963746911,
+          "stop" : 1645963747161,
+          "duration" : 250
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "query",
+          "value" : "SELECT username, password FROM loginPB WHERE id='3'"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Update text Element",
+        "time" : {
+          "start" : 1645963747171,
+          "stop" : 1645963747315,
+          "duration" : 144
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (c1aa85e674b9c5a29715451004aad864)] -> xpath: //*[@id='loginPanel']/form/div[1]/input]"
+        }, {
+          "name" : "text",
+          "value" : "john"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Update text Element",
+        "time" : {
+          "start" : 1645963747334,
+          "stop" : 1645963747430,
+          "duration" : 96
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (c1aa85e674b9c5a29715451004aad864)] -> xpath: //*[@id='loginPanel']/form/div[2]/input]"
+        }, {
+          "name" : "text",
+          "value" : "demo"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1645963747450,
+          "stop" : 1645963748936,
+          "duration" : 1486
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (c1aa85e674b9c5a29715451004aad864)] -> css selector: input[type='submit']]"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Verify Text in Element",
+      "time" : {
+        "start" : 1645963748977,
+        "stop" : 1645963749025,
+        "duration" : 48
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elem",
+        "value" : "[[ChromeDriver: chrome on WINDOWS (c1aa85e674b9c5a29715451004aad864)] -> xpath: //div[@id='leftPanel']/p]"
+      }, {
+        "name" : "expected",
+        "value" : "Welcome John Smith"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "aftermethod",
+    "time" : {
+      "start" : 1645963749085,
+      "stop" : 1645963749376,
+      "duration" : 291
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "endsession",
+    "time" : {
+      "start" : 1645963749380,
+      "stop" : 1645963750021,
+      "duration" : 641
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.ParabankWebDB"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.ParabankWebDB"
+  }, {
+    "name" : "testMethod",
+    "value" : "test01_loginDBandVerifyHeader"
+  }, {
+    "name" : "parentSuite",
+    "value" : "WebDB Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.ParabankWebDB"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KAHI28I"
+  }, {
+    "name" : "thread",
+    "value" : "10716@DESKTOP-KAHI28I.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "web"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9f4e50c4106d6c21.json",
+  "parameterValues" : [ "web" ]
+}

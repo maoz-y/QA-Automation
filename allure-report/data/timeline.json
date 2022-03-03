@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-KAHI28I",
+    "children" : [ {
+      "name" : "10716@DESKTOP-KAHI28I.main(1)",
+      "children" : [ {
+        "name" : "test01-verify Login with DB Credentials",
+        "uid" : "9f4e50c4106d6c21",
+        "parentUid" : "e12d681733ad6bd69bbf2443306d564f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645963746901,
+          "stop" : 1645963749071,
+          "duration" : 2170
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "e12d681733ad6bd69bbf2443306d564f"
+    } ],
+    "uid" : "63c59491002a0c9529068eb31e6b157d"
+  } ]
+}

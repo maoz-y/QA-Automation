@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="WebDB Suite" duration-ms="24581" started-at="2022-02-27T14:08:45 IST" finished-at="2022-02-27T14:09:10 IST">
+    <groups>
+    </groups>
+    <test name="Web Tests" duration-ms="24581" started-at="2022-02-27T14:08:45 IST" finished-at="2022-02-27T14:09:10 IST">
+      <class name="sanity.ParabankWebDB">
+        <test-method status="PASS" signature="startSession(java.lang.String)[pri:0, instance:sanity.ParabankWebDB@425357dd]" name="startSession" is-config="true" duration-ms="21255" started-at="2022-02-27T14:08:45 IST" finished-at="2022-02-27T14:09:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[web]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startSession -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:sanity.ParabankWebDB@425357dd]" name="beforeMethod" is-config="true" duration-ms="53" started-at="2022-02-27T14:09:06 IST" finished-at="2022-02-27T14:09:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sanity.ParabankWebDB.test01_loginDBandVerifyHeader()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test01_loginDBandVerifyHeader()[pri:0, instance:sanity.ParabankWebDB@425357dd]" name="test01_loginDBandVerifyHeader" duration-ms="2164" started-at="2022-02-27T14:09:06 IST" description="test01-verify Login with DB Credentials" finished-at="2022-02-27T14:09:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01_loginDBandVerifyHeader -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:sanity.ParabankWebDB@425357dd]" name="aftermethod" is-config="true" duration-ms="291" started-at="2022-02-27T14:09:09 IST" finished-at="2022-02-27T14:09:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="endsession()[pri:0, instance:sanity.ParabankWebDB@425357dd]" name="endsession" is-config="true" duration-ms="642" started-at="2022-02-27T14:09:09 IST" finished-at="2022-02-27T14:09:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endsession -->
+      </class> <!-- sanity.ParabankWebDB -->
+    </test> <!-- Web Tests -->
+  </suite> <!-- WebDB Suite -->
+</testng-results>

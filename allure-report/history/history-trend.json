@@ -1,0 +1,13 @@
+[ {
+  "buildOrder" : 2,
+  "reportUrl" : "http://localhost:9090/job/Sanity%20Test%20WebDB/2/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 1,
+    "unknown" : 0,
+    "total" : 1
+  }
+} ]

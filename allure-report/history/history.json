@@ -1,0 +1,22 @@
+{
+  "5ac6906354112718bb6b22383dca3f03" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9f4e50c4106d6c21",
+      "reportUrl" : "http://localhost:9090/job/Sanity%20Test%20WebDB/2/allure/#testresult/9f4e50c4106d6c21",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645963746901,
+        "stop" : 1645963749071,
+        "duration" : 2170
+      }
+    } ]
+  }
+}

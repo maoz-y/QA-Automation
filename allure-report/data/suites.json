@@ -1,0 +1,30 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "WebDB Suite",
+    "children" : [ {
+      "name" : "Web Tests",
+      "children" : [ {
+        "name" : "sanity.ParabankWebDB",
+        "children" : [ {
+          "name" : "test01-verify Login with DB Credentials",
+          "uid" : "9f4e50c4106d6c21",
+          "parentUid" : "9a00fdbb6a364e8011b580b4beabdacd",
+          "status" : "passed",
+          "time" : {
+            "start" : 1645963746901,
+            "stop" : 1645963749071,
+            "duration" : 2170
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "web" ]
+        } ],
+        "uid" : "9a00fdbb6a364e8011b580b4beabdacd"
+      } ],
+      "uid" : "520ce6e14491eb7441ae029a4ad4b498"
+    } ],
+    "uid" : "26f42eada131d1734518048b247a2176"
+  } ]
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Environment>
+
+    <!-- Timput -->
+    <Timeout>5</Timeout>
+
+    <!-- Mobile -->
+    <UDID>5210de4fec30a4f1</UDID>
+    <APP_PACKAGE>com.experitest.ExperiBank</APP_PACKAGE>
+    <APP_ACTIVITY>.LoginActivity</APP_ACTIVITY>
+    <AppiumServer>http://localhost:4723/wd/hub</AppiumServer>
+
+    <!-- Web -->
+    <BrowserName>chrome</BrowserName>
+    <url>https://parabank.parasoft.com/parabank/index.htm</url>
+    <ImageRepo>C:\\Automation\\FinalProject_QA_Automation\\ImageRepository\\</ImageRepo>
+
+    <!-- Data Driven Testing -->
+    <DDTFile>./DDTFiles/users.csv</DDTFile>
+
+    <!-- API -->
+    <urlAPI>http://localhost:9000/</urlAPI>
+
+    <!-- Electron -->
+    <ElectronDriverPath>./Drivers/electrondriver.exe</ElectronDriverPath>
+    <ElectronAppPath>C:/Users/Yehuda/AppData/Local/Programs/todolist/Todolist.exe</ElectronAppPath>
+
+    <!-- Desktop -->
+    <CalculatorApp>Microsoft.WindowsCalculator_8wekyb3d8bbwe!App</CalculatorApp>
+    <AppiumServerDesktop>http://127.0.0.1:4723</AppiumServerDesktop>
+
+    <!-- Database -->
+    <DBURL>jdbc:mysql://sql6.freemysqlhosting.net:3306/sql6474079</DBURL>
+    <DBUserName>sql6474079</DBUserName>
+    <DBPassword>rNTeweFc6n</DBPassword>
+
+</Environment>
